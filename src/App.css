@@ -39,6 +39,7 @@
 .grid-container{
   max-width: 334px;
   margin: auto;
+  transform: scale(5);
 }
 .controls {
   max-width: 300px;
@@ -58,7 +59,9 @@
 input:focus{
   border: none;
   outline: none;
+  font-size: 24px !important;
 }
+
 input{
   font-size: 24px !important;
   color: #f90706;
@@ -87,4 +90,11 @@ input::placeholder{
 }
 .input-container{
   border-color: #3f47cc;
+}
+.app-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }

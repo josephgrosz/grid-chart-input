@@ -81,7 +81,7 @@ const Home = () => {
 
   const changeValue = (v, index, item) => {
     const regex = /^[a-zA-Z0-9]{1,3}$/;
-    if(!regex.test(v)) return;
+    if(!regex.test(v) && v != '') return;
     let _data = data;
     _data[index] = {
       label: item.label,
@@ -91,7 +91,7 @@ const Home = () => {
     socket.emit('message', JSON.stringify(_data));
   }
   return (
-    <div className="mt-5">
+    <div className="app-container">
       <div className="grid-container">
       <div className="container">
       <div className="row">
