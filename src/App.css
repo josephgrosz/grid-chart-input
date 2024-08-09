@@ -37,14 +37,10 @@
   }
 }
 .grid-container{
-  max-width: 450px;
+  max-width: 500px;
   margin: auto;
 }
-.controls {
-  max-width: 300px;
-  margin: auto;
-  margin-top: 100px;
-}
+
 .control-label {
   font-size: 24px;
   color: #3f47cc;
@@ -58,11 +54,11 @@
 input:focus{
   border: none;
   outline: none;
-  font-size: 24px !important;
+  font-size: 22px !important;
 }
 
 input{
-  font-size: 24px !important;
+  font-size: 22px !important;
   color: #f90706;
   font-weight: 800;
   line-height: 1.5;
