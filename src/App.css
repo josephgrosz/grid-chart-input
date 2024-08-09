@@ -37,9 +37,8 @@
   }
 }
 .grid-container{
-  max-width: 334px;
+  max-width: 360px;
   margin: auto;
-  transform: scale(5);
 }
 .controls {
   max-width: 300px;
