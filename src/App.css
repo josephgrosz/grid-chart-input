@@ -36,17 +36,17 @@
     transform: rotate(360deg);
   }
 }
-.grid-container{
-  max-width: 420px;
-  margin: auto;
-}
 .controls {
   max-width: 300px;
   margin: auto;
   margin-top: 100px;
 }
+.grid-container{
+  max-width: 380px;
+  margin: auto;
+}
 .control-label {
-  font-size: 24px;
+  font-size: 22px;
   color: #3f47cc;
   font-weight: 800;
   width:22px;
@@ -58,22 +58,23 @@
 input:focus{
   border: none;
   outline: none;
-  font-size: 24px !important;
 }
-
 input{
-  font-size: 24px !important;
+  padding:0px;
+  font-size: 22px !important;
   color: #f90706;
   font-weight: 800;
   line-height: 1.5;
   overflow: hidden;
+  letter-spacing: 0.01em;
   height: 36px;;
-
+  text-transform: uppercase;
+  font-family: 'Arial', sans-serif; 
   background: transparent;
-  transform:translateY(-2px) scaleY(1.4) scaleX(1);
+  transform:translateY(-4px) scaleY(1.6) scaleX(1);
 }
 .control-input{
-  transform:translateY(-2px) scaleY(1.4) translateX(-3px);
+  transform:translateY(-4px) scaleY(1.6) translateX(-3px);
 }
 input::placeholder{
   color:black;
