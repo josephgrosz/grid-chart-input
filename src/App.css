@@ -71,10 +71,10 @@ input{
   text-transform: uppercase;
   font-family: 'Arial', sans-serif; 
   background: transparent;
-  transform:translateY(-4px) scaleY(1.6) scaleX(1);
+  transform:translateY(-2px) scaleY(1.6) scaleX(1);
 }
 .control-input{
-  transform:translateY(-4px) scaleY(1.6) translateX(-3px);
+  transform:translateY(-2px) scaleY(1.6) translateX(-3px);
 }
 input::placeholder{
   color:black;
