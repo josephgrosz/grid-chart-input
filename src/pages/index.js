@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Input from "../components/Input";
 import io from 'socket.io-client';
-const socket = io('https://socket-server-1-zaek.onrender.com/');
+const socket = io('https://socket-server-e7qh.onrender.com/');
 
 const Home = () => {
   const [data, setData] = useState(
